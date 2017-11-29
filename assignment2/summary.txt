@@ -1,0 +1,43 @@
+To run:
+run drones.m using matlab.
+
+write a function to draw the drones in 3D space
+
+drones:
++ import csv file
++ compare each drone distance with each other
++ save data to output
+plot
+
+
+output:
+number of drones that touch
+list of drones that touch,
+list of drones that don't touch.
+[touches, touchlist, ntouchlist] 
+
+touchlist and ntouchlist are struct array with fields:
+x,y,z,radius
+
+plot:
+plot spheres. use surf or mesh. 
+subplot non-touching spheres.
+label axes and include title for each plot
+
+
+csv file:
+Will contain infomation on drones.
+location radius
+x y z r
+
+How to plot:
+plot(x,y), or other...
+title('title')
+xlabel('x axis')
+ylabel('y a	xis')
+
+subplot(row, column, plot/etc..., xlabel('x'), ylabel('y'));
+
+convert points to spheres
+plot spheres
+label axis
