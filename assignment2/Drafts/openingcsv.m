@@ -1,1 +1,0 @@
-M = dlmread('drone.csv', ',');
