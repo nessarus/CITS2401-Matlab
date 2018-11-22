@@ -1,5 +1,5 @@
-# CITS2401-Matlab
-Computer Analysis and Visualisation
+# Matlab Labwork 
+Matlab Labwork are my solution to the lab work from the course CITS2401 Computer Analysis and Visualisation from the University of Western Australia. Skeleton code was used in these solutions which was provided by the university. 
 
 Assignment1:
   function y = pascalTriangle(n)
